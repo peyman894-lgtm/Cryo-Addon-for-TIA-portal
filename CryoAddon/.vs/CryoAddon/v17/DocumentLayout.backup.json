@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|e:\\cryo-addon-for-tia-portal\\cryoaddon\\settings.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:settings.ini||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|e:\\cryo-addon-for-tia-portal\\cryoaddon\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|e:\\cryo-addon-for-tia-portal\\cryoaddon\\workflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:workflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|e:\\cryo-addon-for-tia-portal\\cryoaddon\\sourcefileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:sourcefileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|e:\\cryo-addon-for-tia-portal\\cryoaddon\\tiaportalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:tiaportalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|e:\\cryo-addon-for-tia-portal\\cryoaddon\\appconfigservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:appconfigservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "settings.ini",
+              "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\settings.ini",
+              "RelativeDocumentMoniker": "settings.ini",
+              "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\settings.ini",
+              "RelativeToolTip": "settings.ini",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002768|",
+              "WhenOpened": "2026-07-04T20:47:39.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoggerService.cs",
+              "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\LoggerService.cs",
+              "RelativeDocumentMoniker": "LoggerService.cs",
+              "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\LoggerService.cs",
+              "RelativeToolTip": "LoggerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:47:08.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkflowService.cs",
+              "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\WorkflowService.cs",
+              "RelativeDocumentMoniker": "WorkflowService.cs",
+              "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\WorkflowService.cs",
+              "RelativeToolTip": "WorkflowService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:46:56.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SourceFileService.cs",
+              "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\SourceFileService.cs",
+              "RelativeDocumentMoniker": "SourceFileService.cs",
+              "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\SourceFileService.cs",
+              "RelativeToolTip": "SourceFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:46:42.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TiaPortalService.cs",
+              "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\TiaPortalService.cs",
+              "RelativeDocumentMoniker": "TiaPortalService.cs",
+              "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\TiaPortalService.cs",
+              "RelativeToolTip": "TiaPortalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:46:22.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppConfigService.cs",
+              "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\AppConfigService.cs",
+              "RelativeDocumentMoniker": "AppConfigService.cs",
+              "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\AppConfigService.cs",
+              "RelativeToolTip": "AppConfigService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:45:42.133Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

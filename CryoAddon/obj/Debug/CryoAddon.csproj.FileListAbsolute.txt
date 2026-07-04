@@ -1,0 +1,9 @@
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\bin\Debug\CryoAddon.exe.config
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\bin\Debug\CryoAddon.exe
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\bin\Debug\CryoAddon.pdb
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.csproj.AssemblyReference.cache
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.Properties.Resources.resources
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.csproj.GenerateResource.cache
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.csproj.CoreCompileInputs.cache
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.exe
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.pdb
