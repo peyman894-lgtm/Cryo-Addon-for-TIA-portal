@@ -7,3 +7,5 @@ E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.csproj.GenerateResour
 E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.csproj.CoreCompileInputs.cache
 E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.exe
 E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.pdb
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.exe.config
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.MainForm.resources
