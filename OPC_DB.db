@@ -5,6 +5,7 @@ NON_RETAIN
    VAR RETAIN
       X : Real;
       Y : Real;
+      Z : Int;
    END_VAR
 
 
