@@ -9,3 +9,8 @@ E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.exe
 E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.pdb
 E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.exe.config
 E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.MainForm.resources
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\bin\Debug\Siemens.Engineering.dll
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\bin\Debug\Siemens.Engineering.Hmi.dll
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\bin\Debug\Siemens.Engineering.xml
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\bin\Debug\Siemens.Engineering.Hmi.xml
+E:\Cryo-Addon-for-TIA-portal\CryoAddon\obj\Debug\CryoAddon.csproj.Up2Date
