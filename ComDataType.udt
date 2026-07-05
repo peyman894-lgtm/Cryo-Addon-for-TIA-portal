@@ -3,6 +3,7 @@ VERSION : 0.1
    STRUCT
       Array1 : Array[0..64] of Bool;
       Array2 : Array[0..64] of Real;
+      Array3 : Array[0..64] of Int;
    END_STRUCT;
 
 END_TYPE
