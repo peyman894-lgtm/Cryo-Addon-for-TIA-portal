@@ -8,6 +8,11 @@
         private System.Windows.Forms.TabPage tabGit;
         private System.Windows.Forms.TabPage tabTia;
 
+        private System.Windows.Forms.TabPage tabHome;
+        private System.Windows.Forms.Button btnOpenUpdateHandlers;
+        private System.Windows.Forms.Button btnOpenUpdateEpics;
+        private System.Windows.Forms.Label lblHomeTitle;
+
         private System.Windows.Forms.Label lblIniFile;
         private System.Windows.Forms.TextBox txtIniFile;
         private System.Windows.Forms.Button btnBrowseIni;
@@ -53,6 +58,11 @@
             this.tabGit = new System.Windows.Forms.TabPage();
             this.tabTia = new System.Windows.Forms.TabPage();
 
+            this.tabHome = new System.Windows.Forms.TabPage();
+            this.lblHomeTitle = new System.Windows.Forms.Label();
+            this.btnOpenUpdateHandlers = new System.Windows.Forms.Button();
+            this.btnOpenUpdateEpics = new System.Windows.Forms.Button();
+
             this.lblIniFile = new System.Windows.Forms.Label();
             this.txtIniFile = new System.Windows.Forms.TextBox();
             this.btnBrowseIni = new System.Windows.Forms.Button();
@@ -92,6 +102,7 @@
             this.SuspendLayout();
 
             // tabMain
+            this.tabMain.Controls.Add(this.tabHome);
             this.tabMain.Controls.Add(this.tabGit);
             this.tabMain.Controls.Add(this.tabTia);
             this.tabMain.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -100,6 +111,41 @@
             this.tabMain.SelectedIndex = 0;
             this.tabMain.Size = new System.Drawing.Size(980, 820);
             this.tabMain.TabIndex = 0;
+
+            // tabHome
+            this.tabHome.Controls.Add(this.lblHomeTitle);
+            this.tabHome.Controls.Add(this.btnOpenUpdateHandlers);
+            this.tabHome.Controls.Add(this.btnOpenUpdateEpics);
+            this.tabHome.Location = new System.Drawing.Point(4, 25);
+            this.tabHome.Name = "tabHome";
+            this.tabHome.Size = new System.Drawing.Size(972, 691);
+            this.tabHome.TabIndex = 0;
+            this.tabHome.Text = "Home";
+            this.tabHome.UseVisualStyleBackColor = true;
+
+            // lblHomeTitle
+            this.lblHomeTitle.AutoSize = true;
+            this.lblHomeTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.lblHomeTitle.Location = new System.Drawing.Point(40, 40);
+            this.lblHomeTitle.Name = "lblHomeTitle";
+            this.lblHomeTitle.Size = new System.Drawing.Size(210, 29);
+            this.lblHomeTitle.Text = "TIA Source Updater";
+
+            // btnOpenUpdateHandlers
+            this.btnOpenUpdateHandlers.Location = new System.Drawing.Point(45, 110);
+            this.btnOpenUpdateHandlers.Name = "btnOpenUpdateHandlers";
+            this.btnOpenUpdateHandlers.Size = new System.Drawing.Size(260, 55);
+            this.btnOpenUpdateHandlers.Text = "Update Handlers";
+            this.btnOpenUpdateHandlers.UseVisualStyleBackColor = true;
+            this.btnOpenUpdateHandlers.Click += new System.EventHandler(this.btnOpenUpdateHandlers_Click);
+
+            // btnOpenUpdateEpics
+            this.btnOpenUpdateEpics.Location = new System.Drawing.Point(45, 185);
+            this.btnOpenUpdateEpics.Name = "btnOpenUpdateEpics";
+            this.btnOpenUpdateEpics.Size = new System.Drawing.Size(260, 55);
+            this.btnOpenUpdateEpics.Text = "Update EPICS Devices";
+            this.btnOpenUpdateEpics.UseVisualStyleBackColor = true;
+            this.btnOpenUpdateEpics.Click += new System.EventHandler(this.btnOpenUpdateEpics_Click);
 
             // tabGit
             this.tabGit.Controls.Add(this.lblIniFile);
@@ -117,7 +163,7 @@
             this.tabGit.Padding = new System.Windows.Forms.Padding(3);
             this.tabGit.Size = new System.Drawing.Size(972, 691);
             this.tabGit.TabIndex = 0;
-            this.tabGit.Text = "Git Repository";
+            this.tabGit.Text = "Update Handlers - Git";
             this.tabGit.UseVisualStyleBackColor = true;
 
             // tabTia
@@ -139,7 +185,7 @@
             this.tabTia.Padding = new System.Windows.Forms.Padding(3);
             this.tabTia.Size = new System.Drawing.Size(972, 691);
             this.tabTia.TabIndex = 1;
-            this.tabTia.Text = "TIA Portal";
+            this.tabTia.Text = "Update Handlers - TIA";
             this.tabTia.UseVisualStyleBackColor = true;
 
 

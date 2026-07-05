@@ -404,6 +404,23 @@ namespace CryoAddon
                 }
             }
         }
+        private void btnOpenUpdateHandlers_Click(object sender, EventArgs e)
+        {
+            tabMain.SelectedTab = tabGit;
+            Log("Update Handlers workflow selected.");
+        }
+
+        private void btnOpenUpdateEpics_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                "Update EPICS Devices is planned for Phase 2 and is not implemented yet.",
+                "Phase 2",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information
+            );
+
+            Log("Update EPICS Devices selected, but Phase 2 is not implemented yet.");
+        }
 
         private void btnCompileChanges_Click(object sender, EventArgs e)
         {
