@@ -108,6 +108,27 @@ namespace CryoAddon
                 Log("ERROR loading TIA instances: " + ex.Message);
             }
         }
+        private void SearchDeviceGroupForPlcs(DeviceUserGroup group, string groupPath)
+        {
+            Log("Searching group: " + groupPath);
+
+            foreach (Device device in group.Devices)
+            {
+                SearchDeviceForPlcs(device, groupPath);
+            }
+
+            foreach (DeviceUserGroup childGroup in group.Groups)
+            {
+                SearchDeviceGroupForPlcs(childGroup, groupPath + "\\" + childGroup.Name);
+            }
+        }
+
+        private void SearchDeviceForPlcs(Device device, string groupPath)
+        {
+            Log("Searching device: " + groupPath + " / " + device.Name);
+
+            FindPlcsInDeviceItems(device.DeviceItems, device.Name, groupPath);
+        }
         private void btnListPlcs_Click(object sender, EventArgs e)
         {
             dgvPlcs.Rows.Clear();
@@ -135,7 +156,12 @@ namespace CryoAddon
 
                 foreach (Device device in selectedProject.Devices)
                 {
-                    FindPlcsInDeviceItems(device.DeviceItems, device.Name);
+                    SearchDeviceForPlcs(device, "Project root");
+                }
+
+                foreach (DeviceUserGroup group in selectedProject.DeviceGroups)
+                {
+                    SearchDeviceGroupForPlcs(group, group.Name);
                 }
 
                 Log("PLC list completed. Found " + dgvPlcs.Rows.Count + " PLC(s).");
@@ -160,7 +186,7 @@ namespace CryoAddon
             return -1;
         }
 
-        private void FindPlcsInDeviceItems(DeviceItemComposition deviceItems, string deviceName)
+        private void FindPlcsInDeviceItems(DeviceItemComposition deviceItems, string deviceName, string groupPath)
         {
             foreach (DeviceItem deviceItem in deviceItems)
             {
@@ -168,20 +194,22 @@ namespace CryoAddon
 
                 if (softwareContainer != null && softwareContainer.Software is PlcSoftware)
                 {
+                    PlcSoftware plcSoftware = (PlcSoftware)softwareContainer.Software;
+
                     int rowIndex = dgvPlcs.Rows.Add(
                         false,
-                        deviceName,
+                        groupPath + " / " + deviceName,
                         deviceItem.Name
                     );
 
-                    dgvPlcs.Rows[rowIndex].Tag = softwareContainer.Software;
+                    dgvPlcs.Rows[rowIndex].Tag = plcSoftware;
 
-                    Log("PLC found: " + deviceName + " / " + deviceItem.Name);
+                    Log("PLC found: " + groupPath + " / " + deviceName + " / " + deviceItem.Name);
                 }
 
                 if (deviceItem.DeviceItems != null)
                 {
-                    FindPlcsInDeviceItems(deviceItem.DeviceItems, deviceName);
+                    FindPlcsInDeviceItems(deviceItem.DeviceItems, deviceName, groupPath);
                 }
             }
         }
