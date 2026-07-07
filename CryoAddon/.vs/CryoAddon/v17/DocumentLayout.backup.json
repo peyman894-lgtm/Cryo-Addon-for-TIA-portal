@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|e:\\cryo-addon-for-tia-portal\\cryoaddon\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3464CE1E-30D7-4D50-9AF4-755BC335695D}|CryoAddon.csproj|E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\settings.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -42,39 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
               "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAA1wNYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAwPoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-04T20:57:34.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\MainForm.cs [Design]",
               "RelativeToolTip": "MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T20:55:46.729Z"
+              "WhenOpened": "2026-07-04T20:55:46.729Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
               "ToolTip": "E:\\Cryo-Addon-for-TIA-portal\\CryoAddon\\MainForm.Designer.cs",
               "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAgwJMAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAJ4BAAAAAAAAAAAQwL0BAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T20:51:40.146Z"
+              "WhenOpened": "2026-07-04T20:51:40.146Z",
+              "EditorCaption": ""
             }
           ]
         }
